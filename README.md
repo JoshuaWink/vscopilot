@@ -81,3 +81,38 @@ This project may contain trademarks or logos for projects, products, or services
 Copyright (c) Microsoft Corporation. All rights reserved.
 
 Licensed under the [MIT](LICENSE.txt) license.
+
+---
+
+## Markdown Highlighting & Emphasis
+
+You can use block quotes, emojis, and codeblocks with specific syntax highlighting to draw attention to important content in markdown files and chat responses.
+
+### Examples
+
+**Block Quote + Emoji:**
+
+> 🚩 This is a highlighted message!
+
+**Diff Syntax Highlighting:**
+
+```diff
++ This line is highlighted in green (diff syntax)
+- This line is highlighted in red (diff syntax)
+```
+
+**CSS Syntax Highlighting:**
+
+```css
+.highlight { color: yellow; background: black; }
+```
+
+**JSON Syntax Highlighting:**
+
+```json
+{
+  "highlighted": "This value stands out in JSON"
+}
+```
+
+See `docs/markdown-highlighting-examples.md` for more.
